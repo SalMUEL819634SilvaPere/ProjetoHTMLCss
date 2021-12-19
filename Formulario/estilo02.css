@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/arvores.jpg);
+}
+header{
+    background-color: lightgray;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+h1{
+    text-align: center;
+}
+#formulario{
+    margin: 0 auto;
+    width: 65%;
+    padding: 10px 160px 20px 20px;
+    background-color: lightgray;
+}
+table{
+    table-layout: fixed; /*iguala a largura para todas as colunas*/
+    border-collapse: separate; /*collapse = elimina os espaçamentos*/
+    border-spacing: 10px 15px; /*distância: vertical (x) e horizontal (y)*/
+}
+label {
+    color: darkgoldenrod;
+    text-transform: uppercase;
+}
+span{
+    color:darkgoldenrod;
+}
+legend{
+    color: darkgoldenrod;
+    text-transform: uppercase;
+}
+fieldset{
+    width: 300px;
+    height: 150px;
+    border: 5px groove #fff;
+}
+input[type='text'],
+[type='date'],
+[type='number'],
+[type='email'],
+[type='password'],
+[type='search'],
+[type='file'] {
+     border-radius: 5px;
+     border:1px solid #333;
+     background-color: teal;
+     color:#fff;
+}
+::placeholder{
+    color:#fff;
+}
+
+select{
+    border-radius: 5px;
+    border:1px solid #333;
+    background-color: teal;
+    color:#fff;
+}
+textarea{
+    border-radius: 5px;
+    border: 1px solid #fff;
+    background-color: teal;
+    color:#fff;
+}
+button{
+    border-radius: 5px;
+    border:1px solid #fff;
+    background-color: teal;
+    color:#fff;
+    height: 30px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 16px;
+    
+    
+}
+
+button:hover{
+    background-color: rgb(133, 78, 15);
+     transition: .4s;
+     
+}
+
+textarea:hover{
+    background-color: cadetblue;
+}
+
+input[type='text']:hover{
+    background-color: cadetblue;
+}
+input[type='date']:hover{
+    background-color: cadetblue;
+}
+input[type='number']:hover{
+    background-color: cadetblue;
+}
+input[type='email']:hover{
+    background-color: cadetblue;
+}
+input[type='password']:hover{
+    background-color: cadetblue;
+}
+input[type='search']:hover{
+    background-color: cadetblue;
+}
+input[type='file']:hover{
+    background-color: cadetblue;
+}
+
+select:hover{
+    background-color: cadetblue;
+}
+
+span:hover{
+    background-color: cadetblue;
+}
+
